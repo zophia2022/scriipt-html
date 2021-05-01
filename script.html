@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<title>JavaScript principiante</title>
+    <body>
+	<script>
+    let num = document.querySelector( ´Inputfnum´)
+    let lista = document.querySelector( ´select#lista´)
+    let res = document.querySelector (´div#res´)
+    let valores = []
+
+        function isNumero(n) {
+        if (Number(n) >= 1 && Number(n) <= 100){
+		      return true
+	    }else  {
+		  return false
+		}
+    }
+
+        function inlista(n,1 ){
+        if(1.indexOF(Number(n)) !=-1){
+            return true
+        } else {
+            return false
+       }
+    }
+
+        function adicionar() {
+        if(isNumero(num.value) && !inlista( num.value,valores)) {
+	   
+	    }else{
+	        window.alert(´Valor invalido ou já encontrado na lista ´)
+			}
+	
+	</script>
+	</body>
+</html>
